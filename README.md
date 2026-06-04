@@ -21,11 +21,12 @@ Express.js	REST API development
 Storage
 Technology	Purpose
 JSON Files	Lightweight persistent storage for expenses and budgets
-Why This Stack?
+
+**Why This Stack?**
 
 The selected stack provides a lightweight yet scalable architecture suitable for demonstrating full-stack development skills. React enables efficient UI development, Express provides a clean API layer, and JSON persistence keeps the application simple while meeting project requirements.
 
-Features
+## Features
 Expense Management
 Add new expenses
 Edit existing expenses
