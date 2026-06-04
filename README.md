@@ -25,7 +25,181 @@ Why This Stack?
 
 The selected stack provides a lightweight yet scalable architecture suitable for demonstrating full-stack development skills. React enables efficient UI development, Express provides a clean API layer, and JSON persistence keeps the application simple while meeting project requirements.
 
+Features
+Expense Management
+Add new expenses
+Edit existing expenses
+Delete expenses
+View all expenses sorted by date
+Form validation for all inputs
+Filtering & Search
+Filter by category
+Filter by date range
+Search by notes and categories
+Analytics Dashboard
+Total spending overview
+Monthly spending summary
+Highest expense tracking
+Category-wise expense breakdown
+Average spending metrics
+Budget Tracking
+Set category-wise budgets
+Monitor budget utilization
+Visual budget progress indicators
+Overspending warnings
+Smart Insights
+Spending analysis
+Budget recommendations
+Financial health score
+Smart alerts based on spending patterns
+Additional Features
+CSV Export
+Light/Dark Mode
+Responsive Design
+Interactive Charts
+Toast Notifications
+How to Run Locally
+Prerequisites
+Node.js (v16 or higher)
+npm
+Clone Repository
+git clone https://github.com/TiyaRajput123/SpendWise.git
+cd SpendWise
+Install Dependencies
+npm install
+cd frontend && npm install
+cd ../backend && npm install
+Start Backend
+cd backend
+npm start
 
+Backend runs on:
+
+http://localhost:5000
+Start Frontend
+
+Open a new terminal:
+
+cd frontend
+npm run dev
+
+Frontend runs on:
+
+http://localhost:5173
+API Documentation
+Expenses
+Get All Expenses
+GET /api/expenses
+
+Response:
+
+[
+  {
+    "id": 1,
+    "amount": 250,
+    "category": "Food",
+    "date": "2026-06-01",
+    "note": "Lunch"
+  }
+]
+Get Expense By ID
+GET /api/expenses/:id
+
+Response:
+
+{
+  "id": 1,
+  "amount": 250,
+  "category": "Food",
+  "date": "2026-06-01",
+  "note": "Lunch"
+}
+Create Expense
+POST /api/expenses
+
+Request Body:
+
+{
+  "amount": 250,
+  "category": "Food",
+  "date": "2026-06-01",
+  "note": "Lunch"
+}
+
+Response:
+
+{
+  "message": "Expense created successfully"
+}
+Update Expense
+PUT /api/expenses/:id
+
+Request Body:
+
+{
+  "amount": 300,
+  "category": "Food",
+  "date": "2026-06-01",
+  "note": "Updated Lunch"
+}
+
+Response:
+
+{
+  "message": "Expense updated successfully"
+}
+Delete Expense
+DELETE /api/expenses/:id
+
+Response:
+
+{
+  "message": "Expense deleted successfully"
+}
+Summary
+Get Dashboard Summary
+GET /api/summary
+
+Response:
+
+{
+  "totalSpent": 12500,
+  "highestExpense": 2500,
+  "totalTransactions": 40,
+  "financialHealthScore": 82
+}
+Insights
+Get Financial Insights
+GET /api/insights
+
+Response:
+
+{
+  "healthScore": 82,
+  "recommendations": [
+    "Reduce food spending by ₹100/day"
+  ]
+}
+Budgets
+Get Budgets
+GET /api/budgets
+Create Budget
+POST /api/budgets
+
+Request Body:
+
+{
+  "category": "Food",
+  "budget": 5000
+}
+Update Budget
+PUT /api/budgets/:id
+
+Request Body:
+
+{
+  "budget": 6000
+}
 ---
 
 ## Folder Structure
@@ -53,7 +227,20 @@ SpendWise/
 ├── package.json            # Concurrently execution scripts for monorepo
 └── README.md               # Main instructions
 ```
+Next Steps
 
+Given additional development time, the following improvements would be implemented:
+
+User Authentication & Authorization
+MongoDB/PostgreSQL Integration
+Recurring Expense Management
+Multi-user Support
+Advanced Financial Forecasting
+AI-Powered Insights using LLM APIs
+Unit and Integration Testing
+PWA Support
+Email Reports & Notifications
+Expense Receipt Uploads
 ---
 
 ## Getting Started
