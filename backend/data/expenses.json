@@ -1,0 +1,51 @@
+[
+  {
+    "id": "e11",
+    "amount": 1200,
+    "category": "Transport",
+    "date": "2026-06-03",
+    "note": "Metro smart card recharge"
+  },
+  {
+    "id": "e12",
+    "amount": 3500,
+    "category": "Entertainment",
+    "date": "2026-06-03",
+    "note": "Concert ticket"
+  },
+  {
+    "id": "87c0c85c-1457-4c87-ab43-3271c722188c",
+    "amount": 5000,
+    "category": "Education",
+    "date": "2026-06-04",
+    "note": ""
+  },
+  {
+    "id": "a5c27764-0432-43a2-afea-adbe801cf5e4",
+    "amount": 600,
+    "category": "Food",
+    "date": "2026-06-02",
+    "note": "fast food"
+  },
+  {
+    "id": "0c781712-a5a6-4d67-aecd-9ae0f4b564c7",
+    "amount": 200,
+    "category": "Transport",
+    "date": "2026-05-19",
+    "note": "Auto Rickshaw"
+  },
+  {
+    "id": "7012a999-0cc6-42da-bd13-1416379a08a6",
+    "amount": 2400,
+    "category": "Bills",
+    "date": "2026-05-31",
+    "note": "Electricity Bill"
+  },
+  {
+    "id": "d965ca19-6eff-4fb7-8cf8-ec04cc9dcb86",
+    "amount": 999,
+    "category": "Entertainment",
+    "date": "2026-06-04",
+    "note": "Netflix Subscription"
+  }
+]
