@@ -1,7 +1,30 @@
-# SpendWise - Premium SaaS Financial Dashboard
+# SpendWise 
 
-SpendWise is a premium-quality, full-stack financial dashboard designed to feel like a modern SaaS platform (reminiscent of Linear, Stripe, and Vercel). It allows users to track expenses, set budgets, view visual progress indicators, export transaction reports, and generate intelligent financial health scores and saving alerts.
+SpendWise is a modern full-stack expense management application designed to help users track daily spending, monitor budgets, and gain meaningful insights into their financial habits. The application provides an intuitive dashboard for managing expenses, visualizing spending patterns through interactive charts, exporting transaction records, and receiving smart spending recommendations. Built using React, Node.js, and Express, the project demonstrates end-to-end full-stack development, REST API design, data persistence, and responsive UI implementation.
 
+## Live Demo : https://spend-wise-livid.vercel.app/
+
+## Tech Stack
+**Frontend**
+Technology	                                     Purpose
+React.js (Vite)	            Building a fast and responsive user interface
+Material UI	                Modern UI components and responsive layouts
+React Router DOM	          Client-side routing
+Axios	                      API communication
+Recharts	                  Data visualization and analytics
+Framer Motion               Smooth animations and transitions
+React Hot Toast	            User notifications and alerts
+Backend
+Technology	Purpose
+Node.js	JavaScript runtime
+Express.js	REST API development
+Storage
+Technology	Purpose
+JSON Files	Lightweight persistent storage for expenses and budgets
+Why This Stack?
+
+The selected stack provides a lightweight yet scalable architecture suitable for demonstrating full-stack development skills. React enables efficient UI development, Express provides a clean API layer, and JSON persistence keeps the application simple while meeting project requirements.
+Tech Stack
 ## Tech Stack
 
 - **Frontend**: React.js (Vite), Material UI (MUI v5), Axios, React Router (v6), Recharts, React Hot Toast, Framer Motion
