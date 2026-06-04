@@ -6,8 +6,8 @@ SpendWise is a modern full-stack expense management application designed to help
 
 ## Tech Stack
 **Frontend**
-Technology	                                     Purpose
-React.js (Vite)	            Building a fast and responsive user interface
+Technology	                                   #   Purpose
+React.js (Vite)	          #   Building a fast and responsive user interface
 Material UI	                Modern UI components and responsive layouts
 React Router DOM	          Client-side routing
 Axios	                      API communication
@@ -24,12 +24,7 @@ JSON Files	Lightweight persistent storage for expenses and budgets
 Why This Stack?
 
 The selected stack provides a lightweight yet scalable architecture suitable for demonstrating full-stack development skills. React enables efficient UI development, Express provides a clean API layer, and JSON persistence keeps the application simple while meeting project requirements.
-Tech Stack
-## Tech Stack
 
-- **Frontend**: React.js (Vite), Material UI (MUI v5), Axios, React Router (v6), Recharts, React Hot Toast, Framer Motion
-- **Backend**: Node.js, Express.js
-- **Storage**: JSON File Persistence (`expenses.json` and `budgets.json`)
 
 ---
 
