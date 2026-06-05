@@ -87,7 +87,7 @@ cd ../backend && npm install  <br>
 
 **Start Backend**
 
-cd backend
+cd backend       <br>
 npm start
 
 Backend runs on:
@@ -95,8 +95,8 @@ http://localhost:5000
 
 **Start Frontend**
 
-Open a new terminal:
-cd frontend
+Open a new terminal:    <br>
+cd frontend     <br>
 npm run dev
 
 Frontend runs on:
