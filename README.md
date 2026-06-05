@@ -29,12 +29,12 @@ JSON Files	                 Lightweight persistent storage for expenses and budg
 The selected stack provides a lightweight yet scalable architecture suitable for demonstrating full-stack development skills. React enables efficient UI development, Express provides a clean API layer, and JSON persistence keeps the application simple while meeting project requirements.
 
 ## Features <br>
-**Expense Management**
-Add new expenses
-Edit existing expenses
-Delete expenses
-View all expenses sorted by date
-Form validation for all inputs
+**Expense Management**  <br>
+Add new expenses   <br>
+Edit existing expenses     <br>
+Delete expenses <br>
+View all expenses sorted by date  <br>
+Form validation for all inputs <br>
 **Filtering & Search**
 Filter by category
 Filter by date range
