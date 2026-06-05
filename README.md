@@ -167,7 +167,7 @@ Response:
   "message": "Expense deleted successfully"
 }
 
-## Summary                    <br>
+ **Summary**                  <br>
 
 **Get Dashboard Summary**
 GET /api/summary
@@ -181,7 +181,7 @@ Response:
   "financialHealthScore": 82
 }
 
-## Insights       <br>
+ **Insights**      <br>
 
 **Get Financial Insights**
 GET /api/insights
@@ -195,7 +195,8 @@ Response:
   ]
 }
 
-## Budgets                    <br>
+**Budgets**
+<br>
 **Get Budgets**
 GET /api/budgets
 
