@@ -104,11 +104,11 @@ http://localhost:5173
 
 # API Documentation <br>
 
-**Expenses**
-**Get All Expenses**
-GET /api/expenses
+**Expenses**     <br>
+**Get All Expenses**     <br>
+GET /api/expenses    <br>
 
-Response:
+Response:            <br>
 [
   {
     "id": 1,
@@ -118,10 +118,10 @@ Response:
     "note": "Lunch"
   }
 ]
-**Get Expense By ID**
-GET /api/expenses/:id
+**Get Expense By ID**      <br>
+GET /api/expenses/:id       <br>
 
-Response:
+Response:                      <br>
 
 {
   "id": 1,
@@ -131,22 +131,22 @@ Response:
   "note": "Lunch"
 }
 
-**Create Expense**
+**Create Expense**              <br>
 POST /api/expenses
 
-Request Body:
+Request Body:        <br>
 {
   "amount": 250,
   "category": "Food",
   "date": "2026-06-01",
   "note": "Lunch"
 }
-Response:
+Response:               <br>
 {
   "message": "Expense created successfully"
 }
 
-**Update Expense**
+**Update Expense**                  <br>
 PUT /api/expenses/:id
 Request Body:
 {
@@ -159,15 +159,15 @@ Response:
 {
   "message": "Expense updated successfully"
 }
-
-**Delete Expense**
+ 
+**Delete Expense**               <br>
 DELETE /api/expenses/:id
 Response:
 {
   "message": "Expense deleted successfully"
 }
 
-## Summary
+## Summary                    <br>
 
 **Get Dashboard Summary**
 GET /api/summary
@@ -181,7 +181,7 @@ Response:
   "financialHealthScore": 82
 }
 
-## Insights
+## Insights       <br>
 
 **Get Financial Insights**
 GET /api/insights
@@ -195,7 +195,7 @@ Response:
   ]
 }
 
-## Budgets
+## Budgets                    <br>
 **Get Budgets**
 GET /api/budgets
 
@@ -219,7 +219,7 @@ Request Body:
 }
 ---
 
-## Project Structure
+# Project Structure
 
 ```
 SpendWise/
