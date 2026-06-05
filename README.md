@@ -30,16 +30,16 @@ The selected stack provides a lightweight yet scalable architecture suitable for
 
 # Features <br>
 **Expense Management**  <br>
-- Add new expenses   <br>
-- Edit existing expenses     <br>
-- Delete expenses <br>
-- View all expenses sorted by date  <br>
-- Form validation for all inputs <br>
+- Add new expenses   
+- Edit existing expenses     
+- Delete expenses
+- View all expenses sorted by date  
+- Form validation for all inputs 
 
 **Filtering & Search**
-- Filter by category <br>
-- Filter by date range  <br>
-- Search by notes and categories  <br>
+- Filter by category 
+- Filter by date range  
+- Search by notes and categories  
 
 **Analytics Dashboard**
 - Total spending overview
@@ -53,20 +53,19 @@ The selected stack provides a lightweight yet scalable architecture suitable for
 - Monitor budget utilization
 - Visual budget progress indicators
 - Overspending warnings
-
 **Smart Insights**
-Spending analysis
-Budget recommendations
-Financial health score
-Smart alerts based on spending patterns
+- Spending analysis
+- Budget recommendations
+- Financial health score
+- Smart alerts based on spending patterns
 **Additional Features**
-CSV Export
-Light/Dark Mode
-Responsive Design
-Interactive Charts
-Toast Notifications
+- CSV Export
+- Light/Dark Mode
+- Responsive Design
+- Interactive Charts
+- Toast Notifications
 
-## How to Run Locally
+# How to Run Locally
 **Prerequisites**
 Node.js (v16 or higher)
 npm
