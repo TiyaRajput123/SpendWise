@@ -233,9 +233,8 @@ Response:   <br>
   ]
 }
 
-**Budgets**
+**Budgets**    <br>
 
-<br>
 **Get Budgets**     <br>
 GET /api/budgets
 
