@@ -4,27 +4,38 @@ SpendWise is a modern full-stack expense management application designed to help
 
 ## Live Demo : https://spend-wise-livid.vercel.app/
 
-# Tech Stack
+# 💻 Tech Stack
 
-**Frontend**
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![MaterialUI](https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
+![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+
+## Frontend
+
 | Technology | Purpose |
 |------------|----------|
 | React.js (Vite) | Building a fast and responsive user interface |
-Material UI	                   Modern UI components and responsive layouts
-React Router DOM	             Client-side routing
-Axios	                         API communication
-Recharts	                     Data visualization and analytics
-Framer Motion                  Smooth animations and transitions
-React Hot Toast	               User notifications and alerts
+| Material UI | Modern UI components and responsive layouts |
+| React Router DOM | Client-side routing |
+| Axios | API communication |
+| Recharts | Data visualization and analytics |
+| Framer Motion | Smooth animations and transitions |
+| React Hot Toast | User notifications and alerts |
 
-**Backend**
-Technology	                        Purpose
-Node.js	                      JavaScript runtime
-Express.js	                  REST API development
+## Backend
 
-**Storage**
-Technology	                        Purpose
-JSON Files	                 Lightweight persistent storage for expenses and budgets
+| Technology | Purpose |
+|------------|----------|
+| Node.js | JavaScript runtime |
+| Express.js | REST API development |
+
+## Storage
+
+| Technology | Purpose |
+|------------|----------|
+| JSON Files | Lightweight persistent storage for expenses and budgets |
 
 **Why This Stack?**
 
