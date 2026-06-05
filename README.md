@@ -183,7 +183,6 @@ Response:
 GET /api/summary
  <br>
 Response:
-
 {
   "totalSpent": 12500,
   "highestExpense": 2500,
@@ -194,8 +193,7 @@ Response:
  **Insights**      <br>
 
 **Get Financial Insights**
-GET /api/insights
-
+GET /api/insights    <br>  
 Response:
 
 {
