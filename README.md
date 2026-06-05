@@ -7,89 +7,95 @@ SpendWise is a modern full-stack expense management application designed to help
 ## Tech Stack
 **Frontend**
 Technology	                                   #   Purpose
-React.js (Vite)	          #   Building a fast and responsive user interface
-Material UI	                Modern UI components and responsive layouts
-React Router DOM	          Client-side routing
-Axios	                      API communication
-Recharts	                  Data visualization and analytics
-Framer Motion               Smooth animations and transitions
-React Hot Toast	            User notifications and alerts
-Backend
-Technology	Purpose
-Node.js	JavaScript runtime
-Express.js	REST API development
-Storage
-Technology	Purpose
-JSON Files	Lightweight persistent storage for expenses and budgets
+React.js (Vite)	               Building a fast and responsive user interface
+Material UI	                   Modern UI components and responsive layouts
+React Router DOM	             Client-side routing
+Axios	                         API communication
+Recharts	                     Data visualization and analytics
+Framer Motion                  Smooth animations and transitions
+React Hot Toast	               User notifications and alerts
+
+**Backend**
+Technology	                        Purpose
+Node.js	                      JavaScript runtime
+Express.js	                  REST API development
+
+**Storage**
+Technology	                        Purpose
+JSON Files	                 Lightweight persistent storage for expenses and budgets
 
 **Why This Stack?**
 
 The selected stack provides a lightweight yet scalable architecture suitable for demonstrating full-stack development skills. React enables efficient UI development, Express provides a clean API layer, and JSON persistence keeps the application simple while meeting project requirements.
 
 ## Features
-Expense Management
+**Expense Management**
 Add new expenses
 Edit existing expenses
 Delete expenses
 View all expenses sorted by date
 Form validation for all inputs
-Filtering & Search
+**Filtering & Search**
 Filter by category
 Filter by date range
 Search by notes and categories
-Analytics Dashboard
+**Analytics Dashboard**
 Total spending overview
 Monthly spending summary
 Highest expense tracking
 Category-wise expense breakdown
 Average spending metrics
-Budget Tracking
+**Budget Tracking**
 Set category-wise budgets
 Monitor budget utilization
 Visual budget progress indicators
 Overspending warnings
-Smart Insights
+**Smart Insights**
 Spending analysis
 Budget recommendations
 Financial health score
 Smart alerts based on spending patterns
-Additional Features
+**Additional Features**
 CSV Export
 Light/Dark Mode
 Responsive Design
 Interactive Charts
 Toast Notifications
-How to Run Locally
-Prerequisites
+
+## How to Run Locally
+**Prerequisites**
 Node.js (v16 or higher)
 npm
-Clone Repository
+
+**Clone Repository**
 git clone https://github.com/TiyaRajput123/SpendWise.git
 cd SpendWise
-Install Dependencies
+
+**Install Dependencies**
 npm install
 cd frontend && npm install
 cd ../backend && npm install
-Start Backend
+
+**Start Backend**
 cd backend
 npm start
 
 Backend runs on:
-
 http://localhost:5000
-Start Frontend
+
+**Start Frontend**
 
 Open a new terminal:
-
 cd frontend
 npm run dev
 
 Frontend runs on:
-
 http://localhost:5173
-API Documentation
-Expenses
-Get All Expenses
+
+## API Documentation
+
+**Expenses**
+**Get All Expenses**
 GET /api/expenses
 
 Response:
@@ -103,7 +109,7 @@ Response:
     "note": "Lunch"
   }
 ]
-Get Expense By ID
+**Get Expense By ID**
 GET /api/expenses/:id
 
 Response:
@@ -115,7 +121,8 @@ Response:
   "date": "2026-06-01",
   "note": "Lunch"
 }
-Create Expense
+
+**Create Expense**
 POST /api/expenses
 
 Request Body:
@@ -132,7 +139,8 @@ Response:
 {
   "message": "Expense created successfully"
 }
-Update Expense
+
+**Update Expense**
 PUT /api/expenses/:id
 
 Request Body:
@@ -149,7 +157,8 @@ Response:
 {
   "message": "Expense updated successfully"
 }
-Delete Expense
+
+**Delete Expense**
 DELETE /api/expenses/:id
 
 Response:
@@ -157,8 +166,10 @@ Response:
 {
   "message": "Expense deleted successfully"
 }
-Summary
-Get Dashboard Summary
+
+## Summary
+
+**Get Dashboard Summary**
 GET /api/summary
 
 Response:
@@ -169,8 +180,10 @@ Response:
   "totalTransactions": 40,
   "financialHealthScore": 82
 }
-Insights
-Get Financial Insights
+
+## Insights
+
+**Get Financial Insights**
 GET /api/insights
 
 Response:
@@ -181,10 +194,12 @@ Response:
     "Reduce food spending by ₹100/day"
   ]
 }
-Budgets
-Get Budgets
+
+## Budgets
+**Get Budgets**
 GET /api/budgets
-Create Budget
+
+**Create Budget**
 POST /api/budgets
 
 Request Body:
@@ -193,7 +208,8 @@ Request Body:
   "category": "Food",
   "budget": 5000
 }
-Update Budget
+
+**Update Budget**
 PUT /api/budgets/:id
 
 Request Body:
@@ -203,7 +219,7 @@ Request Body:
 }
 ---
 
-## Folder Structure
+## Project Structure
 
 ```
 SpendWise/
@@ -228,7 +244,7 @@ SpendWise/
 ├── package.json            # Concurrently execution scripts for monorepo
 └── README.md               # Main instructions
 ```
-Next Steps
+## Next Steps
 
 Given additional development time, the following improvements would be implemented:
 
@@ -244,41 +260,4 @@ Email Reports & Notifications
 Expense Receipt Uploads
 ---
 
-## Getting Started
 
-### Prerequisites
-
-- Node.js (v16.0.0 or higher)
-- npm (v8.0.0 or higher)
-
-### Setup & Installation
-
-If not already installed, run the installation script from the root workspace directory:
-
-```bash
-npm run install-all
-```
-
-This installs packages in the root, `backend/`, and `frontend/` folders.
-
-### Run in Development
-
-To start both the Express backend API and Vite React frontend concurrently in development mode, run:
-
-```bash
-npm run dev
-```
-
-- **Frontend client**: http://localhost:5173
-- **Backend API**: http://localhost:5000
-
----
-
-## Key Features
-
-1. **Dashboard**: High-level KPI summary statistics, categories distribution pie chart, monthly trends bar chart, AI Insights preview, and recent transactions.
-2. **Expenses Log**: Add, edit, delete, and view expense detail items. Validates input values (no negative amounts, category is required, no future dates relative to local time). Filters by category and date ranges (including custom date range selectors).
-3. **Budgeting Board**: Configure monthly expense limits per category. Renders real-time visual progress indicators that shift colors (Green under 70%, Amber 70-90%, and Red over 90%) and prompt warnings.
-4. **Smart AI Insights**: Programmatic financial health index evaluator, daily saving tips based on top categories, smart alerts for MoM trend spikes, large transactions, and exceeded budgets.
-5. **CSV Exporter**: Downloads the currently filtered transactions into `expenses.csv`.
-6. **Premium Design Language**: Custom theme containing a standard Light Mode and an elegant Dark Mode (using premium slate colors). High-quality typography using *Plus Jakarta Sans*, sleek shadows, hover translations, and soft animations.
