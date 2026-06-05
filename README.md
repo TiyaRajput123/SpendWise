@@ -23,7 +23,7 @@ SpendWise is a modern full-stack expense management application designed to help
 
 ## 🌐 Live Demo
 
-**Frontend:** https://spend-wise-livid.vercel.app/
+**Live Link:** https://spend-wise-livid.vercel.app/
 
 **Backend API:** https://spendwise-m7ol.onrender.com
 
