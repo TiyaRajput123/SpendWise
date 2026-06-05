@@ -4,7 +4,7 @@ SpendWise is a modern full-stack expense management application designed to help
 
 ## Live Demo : https://spend-wise-livid.vercel.app/
 
-## Tech Stack
+# Tech Stack
 **Frontend**
 Technology	                                   #   Purpose
 React.js (Vite)	               Building a fast and responsive user interface
@@ -28,7 +28,7 @@ JSON Files	                 Lightweight persistent storage for expenses and budg
 
 The selected stack provides a lightweight yet scalable architecture suitable for demonstrating full-stack development skills. React enables efficient UI development, Express provides a clean API layer, and JSON persistence keeps the application simple while meeting project requirements.
 
-## Features
+## Features <br>
 **Expense Management**
 Add new expenses
 Edit existing expenses
