@@ -69,12 +69,12 @@ The selected stack provides a lightweight yet scalable architecture suitable for
 
 # How to Run Locally  <br>
 
-**Prerequisites**  
+**Prerequisites**   <br>
 
 Node.js (v16 or higher)  <br>
 npm
 
-**Clone Repository**
+**Clone Repository**   <br>
 
 git clone https://github.com/TiyaRajput123/SpendWise.git
 cd SpendWise
