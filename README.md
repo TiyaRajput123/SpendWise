@@ -222,9 +222,9 @@ Response:
 
  **Insights**      <br>
 
-**Get Financial Insights**
+**Get Financial Insights**      <br>
 GET /api/insights    <br>  
-Response:
+Response:   <br>
 
 {
   "healthScore": 82,
