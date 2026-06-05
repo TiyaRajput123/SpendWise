@@ -67,9 +67,9 @@ The selected stack provides a lightweight yet scalable architecture suitable for
 - Interactive Charts
 - Toast Notifications
 
-# How to Run Locally 
+# How to Run Locally  <br>
 
-**Prerequisites**
+**Prerequisites**  
 Node.js (v16 or higher)
 npm
 
