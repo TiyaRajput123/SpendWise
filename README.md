@@ -29,27 +29,32 @@ JSON Files	                 Lightweight persistent storage for expenses and budg
 The selected stack provides a lightweight yet scalable architecture suitable for demonstrating full-stack development skills. React enables efficient UI development, Express provides a clean API layer, and JSON persistence keeps the application simple while meeting project requirements.
 
 ## Features <br>
+
 **Expense Management**  <br>
-Add new expenses   <br>
-Edit existing expenses     <br>
-Delete expenses <br>
-View all expenses sorted by date  <br>
-Form validation for all inputs <br>
+- Add new expenses   <br>
+- Edit existing expenses     <br>
+- Delete expenses <br>
+- View all expenses sorted by date  <br>
+- Form validation for all inputs <br>
+
 **Filtering & Search**
-Filter by category
-Filter by date range
-Search by notes and categories
+-Filter by category <br>
+-Filter by date range  <br>
+-Search by notes and categories  <br>
+
 **Analytics Dashboard**
-Total spending overview
-Monthly spending summary
-Highest expense tracking
-Category-wise expense breakdown
-Average spending metrics
+-Total spending overview
+-Monthly spending summary
+-Highest expense tracking
+-Category-wise expense breakdown
+-Average spending metrics
+
 **Budget Tracking**
-Set category-wise budgets
-Monitor budget utilization
-Visual budget progress indicators
-Overspending warnings
+-Set category-wise budgets
+-Monitor budget utilization
+-Visual budget progress indicators
+-Overspending warnings
+
 **Smart Insights**
 Spending analysis
 Budget recommendations
