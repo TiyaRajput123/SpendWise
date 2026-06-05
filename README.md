@@ -2,7 +2,7 @@
 
 # 💰 SpendWise
 
-### Smart Expense Tracker & Financial Insights Dashboard
+### Smart Expense Tracker 
 
 A modern full-stack expense management application built as a solution for **Studio Graphene's Full Stack Developer Assessment (Exercise 2: Mini Expense Tracker)**.
 
@@ -20,7 +20,6 @@ A modern full-stack expense management application built as a solution for **Stu
 
 SpendWise is a modern full-stack expense management application designed to help users track daily spending, monitor budgets, and gain meaningful insights into their financial habits. The application provides an intuitive dashboard for managing expenses, visualizing spending patterns through interactive charts, exporting transaction records, and receiving smart spending recommendations. Built using React, Node.js, and Express, the project demonstrates end-to-end full-stack development, REST API design, data persistence, and responsive UI implementation.
 
-**Assessment Exercise Chosen:** Exercise 2 – Mini Expense Tracker
 
 ## 🌐 Live Demo
 
