@@ -205,10 +205,10 @@ Response:
 
 **Budgets**
 <br>
-**Get Budgets**
+**Get Budgets**     <br>
 GET /api/budgets
 
-**Create Budget**
+**Create Budget**      <br>
 POST /api/budgets
 
 Request Body:
@@ -218,7 +218,7 @@ Request Body:
   "budget": 5000
 }
 
-**Update Budget**
+**Update Budget**     <br>
 PUT /api/budgets/:id
 
 Request Body:
