@@ -68,16 +68,12 @@ The selected stack provides a lightweight yet scalable architecture suitable for
 - Toast Notifications
 
 # How to Run Locally  <br>
-
 **Prerequisites**  
 Node.js (v16 or higher)
 npm
-
 **Clone Repository**
-
 git clone https://github.com/TiyaRajput123/SpendWise.git
 cd SpendWise
-
 **Install Dependencies**
 
 npm install
@@ -101,14 +97,13 @@ npm run dev
 Frontend runs on:
 http://localhost:5173
 
-## API Documentation
+# API Documentation <br>
 
 **Expenses**
 **Get All Expenses**
 GET /api/expenses
 
 Response:
-
 [
   {
     "id": 1,
@@ -135,43 +130,34 @@ Response:
 POST /api/expenses
 
 Request Body:
-
 {
   "amount": 250,
   "category": "Food",
   "date": "2026-06-01",
   "note": "Lunch"
 }
-
 Response:
-
 {
   "message": "Expense created successfully"
 }
 
 **Update Expense**
 PUT /api/expenses/:id
-
 Request Body:
-
 {
   "amount": 300,
   "category": "Food",
   "date": "2026-06-01",
   "note": "Updated Lunch"
 }
-
 Response:
-
 {
   "message": "Expense updated successfully"
 }
 
 **Delete Expense**
 DELETE /api/expenses/:id
-
 Response:
-
 {
   "message": "Expense deleted successfully"
 }
