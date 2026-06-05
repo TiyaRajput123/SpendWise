@@ -5,9 +5,11 @@ SpendWise is a modern full-stack expense management application designed to help
 ## Live Demo : https://spend-wise-livid.vercel.app/
 
 # Tech Stack
+
 **Frontend**
-Technology	                                   #   Purpose
-React.js (Vite)	               Building a fast and responsive user interface
+| Technology | Purpose |
+|------------|----------|
+| React.js (Vite) | Building a fast and responsive user interface |
 Material UI	                   Modern UI components and responsive layouts
 React Router DOM	             Client-side routing
 Axios	                         API communication
@@ -204,7 +206,6 @@ Response:
 }
 
 **Budgets**
-
 <br>
 **Get Budgets**     <br>
 GET /api/budgets
@@ -259,16 +260,16 @@ SpendWise/
 
 Given additional development time, the following improvements would be implemented:
 
-User Authentication & Authorization
-MongoDB/PostgreSQL Integration
-Recurring Expense Management
-Multi-user Support
-Advanced Financial Forecasting
-AI-Powered Insights using LLM APIs
-Unit and Integration Testing
-PWA Support
-Email Reports & Notifications
-Expense Receipt Uploads
+- User Authentication & Authorization
+- MongoDB/PostgreSQL Integration
+- Recurring Expense Management
+- Multi-user Support
+- AI-Powered Insights using LLM APIs
+- Unit and Integration Testing
+- PWA Support
+- Email Reports & Notifications
+- Expense Receipt Uploads
+
 ---
 
 
