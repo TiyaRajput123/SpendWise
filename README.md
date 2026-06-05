@@ -71,7 +71,7 @@ The selected stack provides a lightweight yet scalable architecture suitable for
 
 **Prerequisites**  
 
-Node.js (v16 or higher)
+Node.js (v16 or higher)  <br>
 npm
 
 **Clone Repository**
@@ -81,9 +81,9 @@ cd SpendWise
 
 **Install Dependencies**
 
-npm install
-cd frontend && npm install
-cd ../backend && npm install
+npm install  <br>
+cd frontend && npm install  <br>
+cd ../backend && npm install  <br>
 
 **Start Backend**
 
