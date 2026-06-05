@@ -1,8 +1,32 @@
-# SpendWise 
+<div align="center">
+
+# 💰 SpendWise
+
+### Smart Expense Tracker & Financial Insights Dashboard
+
+A modern full-stack expense management application built as a solution for **Studio Graphene's Full Stack Developer Assessment (Exercise 2: Mini Expense Tracker)**.
+
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white)]()
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)]()
+[![Express](https://img.shields.io/badge/Express-black?style=flat-square&logo=express&logoColor=white)]()
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)]()
+[![Material UI](https://img.shields.io/badge/MUI-007FFF?style=flat-square&logo=mui&logoColor=white)]()
+
+</div>
+
+---
+
+## 📖 Project Overview
 
 SpendWise is a modern full-stack expense management application designed to help users track daily spending, monitor budgets, and gain meaningful insights into their financial habits. The application provides an intuitive dashboard for managing expenses, visualizing spending patterns through interactive charts, exporting transaction records, and receiving smart spending recommendations. Built using React, Node.js, and Express, the project demonstrates end-to-end full-stack development, REST API design, data persistence, and responsive UI implementation.
 
-## Live Demo : https://spend-wise-livid.vercel.app/
+**Assessment Exercise Chosen:** Exercise 2 – Mini Expense Tracker
+
+## 🌐 Live Demo
+
+**Frontend:** https://spend-wise-livid.vercel.app/
+
+**Backend API:** https://spendwise-m7ol.onrender.com
 
 # 💻 Tech Stack
 
@@ -41,7 +65,7 @@ SpendWise is a modern full-stack expense management application designed to help
 
 The selected stack provides a lightweight yet scalable architecture suitable for demonstrating full-stack development skills. React enables efficient UI development, Express provides a clean API layer, and JSON persistence keeps the application simple while meeting project requirements.
 
-# Features <br>
+# ✨ Features <br>
 **Expense Management**  <br>
 - Add new expenses   
 - Edit existing expenses     
@@ -80,7 +104,7 @@ The selected stack provides a lightweight yet scalable architecture suitable for
 - Interactive Charts
 - Toast Notifications
 
-# How to Run Locally  <br>
+# 🚀 How to Run Locally  <br>
 
 **Prerequisites**   <br>
 
@@ -115,7 +139,7 @@ npm run dev
 Frontend runs on:
 http://localhost:5173
 
-# API Documentation <br>
+# 📡 API Documentation <br>
 
 **Expenses**     <br>
 **Get All Expenses**     <br>
@@ -242,7 +266,7 @@ Request Body:
 
 ---
 
-# Project Structure
+# 📂 Project Structure
 
 ```
 SpendWise/
@@ -267,7 +291,7 @@ SpendWise/
 ├── package.json            # Concurrently execution scripts for monorepo
 └── README.md               # Main instructions
 ```
-## Next Steps
+## 🔮Next Steps
 
 Given additional development time, the following improvements would be implemented:
 
