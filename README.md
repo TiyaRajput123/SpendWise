@@ -217,6 +217,7 @@ Request Body:
 {
   "budget": 6000
 }
+
 ---
 
 # Project Structure
