@@ -76,7 +76,7 @@ npm
 
 **Clone Repository**   <br>
 
-git clone https://github.com/TiyaRajput123/SpendWise.git
+git clone https://github.com/TiyaRajput123/SpendWise.git    <br>
 cd SpendWise
 
 **Install Dependencies**
