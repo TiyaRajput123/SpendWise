@@ -106,6 +106,7 @@ http://localhost:5173
 
 **Expenses**     <br>
 **Get All Expenses**     <br>
+
 GET /api/expenses    <br>
 
 Response:            <br>
@@ -118,7 +119,9 @@ Response:            <br>
     "note": "Lunch"
   }
 ]
+
 **Get Expense By ID**      <br>
+
 GET /api/expenses/:id       <br>
 
 Response:                      <br>
@@ -132,6 +135,7 @@ Response:                      <br>
 }
 
 **Create Expense**              <br>
+
 POST /api/expenses
 
 Request Body:        <br>
@@ -141,13 +145,16 @@ Request Body:        <br>
   "date": "2026-06-01",
   "note": "Lunch"
 }
+ <br>
 Response:               <br>
 {
   "message": "Expense created successfully"
 }
 
 **Update Expense**                  <br>
-PUT /api/expenses/:id
+
+PUT /api/expenses/:id    <br>
+ 
 Request Body:
 {
   "amount": 300,
@@ -155,13 +162,16 @@ Request Body:
   "date": "2026-06-01",
   "note": "Updated Lunch"
 }
+ <br>
 Response:
 {
   "message": "Expense updated successfully"
 }
  
 **Delete Expense**               <br>
+
 DELETE /api/expenses/:id
+ <br>
 Response:
 {
   "message": "Expense deleted successfully"
@@ -169,9 +179,9 @@ Response:
 
  **Summary**                  <br>
 
-**Get Dashboard Summary**
+**Get Dashboard Summary**   <br>   
 GET /api/summary
-
+ <br>
 Response:
 
 {
