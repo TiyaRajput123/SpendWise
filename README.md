@@ -53,11 +53,13 @@ The selected stack provides a lightweight yet scalable architecture suitable for
 - Monitor budget utilization
 - Visual budget progress indicators
 - Overspending warnings
+  
 **Smart Insights**
 - Spending analysis
 - Budget recommendations
 - Financial health score
 - Smart alerts based on spending patterns
+  
 **Additional Features**
 - CSV Export
 - Light/Dark Mode
